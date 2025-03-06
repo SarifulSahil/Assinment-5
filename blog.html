@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Bangladesh - Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navbg: "#F9F7F3",
+                        btngreen: "#B4F461"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation Bar -->
+    <nav class="bg-navbg shadow-sm">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <div>
+                <a href="index.html" class="bg-white px-6 py-2 rounded-lg font-medium border border-gray-200">Home</a>
+            </div>
+            <div class="flex items-center space-x-2">
+                <img src="assets/logo.png" alt="Donate" class="w-6 h-6">
+                <span class="font-medium text-gray-700">Donate Bangladesh</span>
+            </div>
+            
+            <!-- BDT Amount -->
+            <div class="mr-8 flex items-center space-x-1">
+                <img src="assets/coin.png" alt="Donate" class="w-6 h-6">
+                <span id="total-donation" class="font-semibold text-gray-800">5500 BDT</span>
+            </div>
+                
+        </div>
+    </nav>
+
+    <!-- Blog Content -->
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold mb-8 text-center">Donation Stories & Updates</h1>
+        
+        <!-- Blog Posts -->
+        <div class="space-y-8">
+            <!-- Blog Post 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                <h2 class="text-2xl font-bold mb-4">Flood Recovery Efforts in Noakhali Show Progress</h2>
+                <div class="flex items-center gap-2 text-gray-500 mb-4">
+                    <span>February 25, 2025</span>
+                    <span>•</span>
+                    <span>Relief Updates</span>
+                </div>
+                <img src="assets/noakhali.png" alt="Flood recovery in Noakhali" class="w-full h-80 object-cover rounded-lg mb-6">
+                <div class="prose max-w-none">
+                    <p class="mb-4">
+                        Thanks to your generous donations, the recovery efforts in Noakhali have made significant progress over the past month. The funds collected have been used to distribute essential supplies including clean water, food, medicine, and temporary shelters to over 500 families affected by the devastating floods.
+                    </p>
+                    <p class="mb-4">
+                        Local volunteer teams have been working tirelessly alongside government agencies to restore basic infrastructure and help families return to their homes. The immediate response was crucial in preventing the spread of waterborne diseases and ensuring that displaced families had safe places to stay.
+                    </p>
+                    <p class="mb-4">
+                        "The support we received from donors across Bangladesh has been overwhelming," said Farida Begum, a local relief coordinator. "It has truly made a difference in how quickly we've been able to respond to this crisis."
+                    </p>
+                    <p>
+                        The focus is now shifting towards long-term rehabilitation, including home repairs and supporting farmers whose crops were destroyed by the floods. Your continued support will help these communities rebuild stronger than before.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Blog Post 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                <h2 class="text-2xl font-bold mb-4">Medical Aid Reaches Injured Quota Movement Participants</h2>
+                <div class="flex items-center gap-2 text-gray-500 mb-4">
+                    <span>February 18, 2025</span>
+                    <span>•</span>
+                    <span>Medical Relief</span>
+                </div>
+                <img src="assets/quota-protest.png" alt="Medical aid for injured protesters" class="w-full h-80 object-cover rounded-lg mb-6">
+                <div class="prose max-w-none">
+                    <p class="mb-4">
+                        Your donations have enabled us to provide critical medical assistance to those injured during the recent quota movement demonstrations. To date, we have been able to support 120 individuals with medical care ranging from emergency treatment to ongoing rehabilitation services.
+                    </p>
+                    <p class="mb-4">
+                        The funds have been allocated to cover hospital bills, medication costs, and specialized treatments for those with more serious injuries. Additionally, we've partnered with local healthcare providers to ensure continued access to necessary medical services.
+                    </p>
+                    <p class="mb-4">
+                        "The medical support came at a time when many families were struggling to afford proper care," explains Dr. Rahman, who has been coordinating the medical relief efforts. "These donations have literally been life-changing for many of the injured."
+                    </p>
+                    <p>
+                        We remain committed to supporting those affected until they have fully recovered and can return to their normal lives. Your compassion and generosity continue to make this important work possible.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Blog Post 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                <h2 class="text-2xl font-bold mb-4">Community Rebuilding Begins in Feni After Floods</h2>
+                <div class="flex items-center gap-2 text-gray-500 mb-4">
+                    <span>February 10, 2025</span>
+                    <span>•</span>
+                    <span>Community Stories</span>
+                </div>
+                <img src="assets/feni.png" alt="Community rebuilding in Feni" class="w-full h-80 object-cover rounded-lg mb-6">
+                <div class="prose max-w-none">
+                    <p class="mb-4">
+                        In Feni, where floods severely damaged homes and community infrastructure, the rebuilding process has officially begun thanks to the collective effort of donors like you. The initial phase of emergency relief has successfully transitioned into a structured rehabilitation program.
+                    </p>
+                    <p class="mb-4">
+                        Community members, with support from donation funds, have started repairing damaged homes, schools, and community centers. Local construction workers have been employed in these efforts, providing much-needed income opportunities while simultaneously rebuilding the physical infrastructure.
+                    </p>
+                    <p class="mb-4">
+                        "We're not just rebuilding what was lost; we're building better and more resilient structures," shares Kamal Hossain, a community leader in Feni. "The solidarity shown through these donations has given our community hope and determination to overcome this disaster."
+                    </p>
+                    <p>
+                        Special attention is being given to vulnerable households, particularly those headed by elderly individuals or single parents. The goal is to ensure that no one is left behind in this recovery process, reflecting the spirit of compassion that drives our donation initiatives.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-navbg mt-12 py-8">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <div class="flex items-center justify-center space-x-2 mb-4">
+                    <img src="assets/logo.png" alt="Donate" class="w-6 h-6">
+                    <span class="font-medium text-gray-700">Donate Bangladesh</span>
+                </div>
+                <p class="text-gray-600">Making a difference through collective generosity</p>
+                <p class="text-gray-500 mt-4">&copy; 2025 Donate Bangladesh. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript link -->
+     <script src="js/blog.js"></script>
+</body>
+</html>
